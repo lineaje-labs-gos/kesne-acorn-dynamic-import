@@ -6,9 +6,15 @@
   "author": "Jordan Gensler <jordangens@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kesne/acorn-dynamic-import"
+    "url": "https://github.com/lineaje-labs-gos/kesne-acorn-dynamic-import"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "npm run lint && npm run tests-only",
@@ -41,5 +47,5 @@
     "rimraf": "^2.5.4",
     "safe-publish-latest": "^1.1.1"
   },
-  "version": "2.0.2"
+  "version": "2.0.2-lineaje-01"
 }
