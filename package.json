@@ -31,7 +31,7 @@
     "tag": "git tag v$npm_package_version"
   },
   "dependencies": {
-    "acorn": "^4.0.3"
+    "acorn": ">=5.7.4"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -47,5 +47,11 @@
     "rimraf": "^2.5.4",
     "safe-publish-latest": "^1.1.1"
   },
-  "version": "2.0.2-lineaje-01"
+  "version": "2.0.2-lineaje-01",
+  "overrides": {
+    "acorn": ">=5.7.4"
+  },
+  "resolutions": {
+    "acorn": ">=5.7.4"
+  }
 }
